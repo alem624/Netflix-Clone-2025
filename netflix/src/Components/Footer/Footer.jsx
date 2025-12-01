@@ -6,8 +6,8 @@ import React from 'react'
 function Footer() {
   return (
     <div className="footer-outer-container">
-      <div lassName="footer-inner-container">
-        <div lassName="footer-icones">
+      <div className="footer-inner-container">
+        <div className="footer-icones">
           <FacebookIcon />
           <InstagramIcon />
           <YouTubeIcon />
