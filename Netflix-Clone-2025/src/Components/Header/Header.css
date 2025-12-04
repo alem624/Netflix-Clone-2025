@@ -1,0 +1,41 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+}
+.header_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 5px;
+
+}
+.header_left ul{
+    width: 140%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+
+}
+.header_right ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-left: auto
+}
