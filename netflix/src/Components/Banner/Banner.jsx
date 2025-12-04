@@ -25,7 +25,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div 
+    <div
       className="banner"
       style={{
         backgroundSize: "cover",
