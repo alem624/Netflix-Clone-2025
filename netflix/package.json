@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alem624.github.io/netflix",
+  "homepage": "https://alem624.github.io/Netflix-Clone-2025",
   "name": "netflix",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite",
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
