@@ -7,22 +7,22 @@
 }
 .banner_contents{
     margin-left: 30px;
-    padding-top: 300px;
+    padding-top: 160px;
 }
 .banner_title{
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
 }
-h1.banner_description{
+.banner_description{
      width: 45rem;
      line-height: 1;
      padding: 1rem 0;
      font-size: 1rem;
      max-width: 360px;
-     height: 80px;
-     text-align: right;
-     
+     height: auto;
+     /* text-align: left; */
+     margin-left: 10px;
 }
 .banner_button{
     cursor: pointer;
@@ -34,7 +34,7 @@ h1.banner_description{
     border-radius: 0.2vw;
     padding: 1rem 3rem;
     margin-right: 2rem;
-    background-color: rgba(51,51,51,0.5 );
+     background-color: rgba(51,51,51,0.5 ); 
 }
 .play{
     color: #000;
@@ -42,13 +42,13 @@ h1.banner_description{
 }
 .banner_button:hover{
     color: #000;
-    background-color: #6c6c6c;
+     background-color: #6c6c6c; 
     transition: all0.2s;
 }
 .banner_fadeBottom{
-    height: 40vh;
-    background-image: linear-gradient(180deg,
-    transparent,
+    height: 40vh; 
+     background-image: linear-gradient(180deg,
+    transparent, 
     rgb(37,37,37,0.91),
     #111);
 }

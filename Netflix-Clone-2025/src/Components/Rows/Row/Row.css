@@ -12,7 +12,7 @@
     padding: 20px;
 
 }
-.row_posters ::-webkit-scrollbar {
+.row_posters::-webkit-scrollbar {
     display: none;
 }
 .row_poster:hover {

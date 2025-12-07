@@ -1,9 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
@@ -17,6 +12,20 @@
   --color-primary: #ffffff;    
   --color-secondary: #e50914;  
 }
+
+
+
+
+
+*{
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 
 body{
   background-color: #111;
